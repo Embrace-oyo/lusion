@@ -1,0 +1,19 @@
+{
+  "name": "fluid-screen-tutorial",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lusion 屏幕流体特效复刻 — 教程配套源码",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
