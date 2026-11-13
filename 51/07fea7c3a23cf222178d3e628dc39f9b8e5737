@@ -1,0 +1,154 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.5",
+  "base_commit_sha": "5107fea7c3a23cf222178d3e628dc39f9b8e5737",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 3083,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 3083,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      ".idea/MarsCodeWorkspaceAppSettings.xml": {
+        "BYMC": [
+          "1-6"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      ".idea/lusion.iml": {
+        "BYMC": [
+          "1-8"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      ".idea/modules.xml": {
+        "BYMC": [
+          "1-8"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      ".idea/vcs.xml": {
+        "BYMC": [
+          "1-6"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/README.md": {
+        "BYMC": [
+          "1-96"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/index.html": {
+        "BYMC": [
+          "1-46"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/main.js": {
+        "BYMC": [
+          "1-25"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/package.json": {
+        "BYMC": [
+          "1-19"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/FinalPass.js": {
+        "BYMC": [
+          "1-203"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/FluidExperience.js": {
+        "BYMC": [
+          "1-425"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/FluidGUI.js": {
+        "BYMC": [
+          "1-79"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/FsrPass.js": {
+        "BYMC": [
+          "1-348"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/Input.js": {
+        "BYMC": [
+          "1-186"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/ScreenPaint.js": {
+        "BYMC": [
+          "1-771"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/ScreenPaintDistortion.js": {
+        "BYMC": [
+          "1-224"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/SmaaPass.js": {
+        "BYMC": [
+          "1-31"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/fluidBase.js": {
+        "BYMC": [
+          "1-116"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/src/math.js": {
+        "BYMC": [
+          "1-74"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "fluid-screen-tutorial/掘金-屏幕流体特效教程.md": {
+        "BYMC": [
+          "1-412"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1794581137,
+  "requirement_id": ""
+}
