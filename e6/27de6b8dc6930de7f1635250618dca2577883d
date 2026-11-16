@@ -1,0 +1,28 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.5",
+  "base_commit_sha": "e627de6b8dc6930de7f1635250618dca2577883d",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 458,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 458,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "balloons-tutorial/掘金-气球物理特效教程.md": {
+        "BYMC": [
+          "1-458"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1794820872,
+  "requirement_id": ""
+}
