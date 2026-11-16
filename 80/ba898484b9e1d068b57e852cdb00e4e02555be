@@ -1,0 +1,161 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.5",
+  "base_commit_sha": "80ba898484b9e1d068b57e852cdb00e4e02555be",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 3630,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 3630,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      ".gitignore": {
+        "BYMC": [
+          "1-5"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/README.md": {
+        "BYMC": [
+          "1-75"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/index.html": {
+        "BYMC": [
+          "1-46"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/main.js": {
+        "BYMC": [
+          "1-23"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/package.json": {
+        "BYMC": [
+          "1-18"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/BalloonsExperience.js": {
+        "BYMC": [
+          "1-395"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/BlueNoise.js": {
+        "BYMC": [
+          "1-137"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/BufLoader.js": {
+        "BYMC": [
+          "1-216"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/FinalPass.js": {
+        "BYMC": [
+          "1-203"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/FsrPass.js": {
+        "BYMC": [
+          "1-348"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/HomeBalloons.js": {
+        "BYMC": [
+          "1-455"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/HomeBalloonsBackground.js": {
+        "BYMC": [
+          "1-138"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/HomeBalloonsPhysics.js": {
+        "BYMC": [
+          "1-377"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/Input.js": {
+        "BYMC": [
+          "1-186"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/SmaaPass.js": {
+        "BYMC": [
+          "1-31"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/Stage3D.js": {
+        "BYMC": [
+          "1-168"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/background.js": {
+        "BYMC": [
+          "1-104"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/balloon.js": {
+        "BYMC": [
+          "1-535"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/lusionData.js": {
+        "BYMC": [
+          "1-96"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "balloons-tutorial/src/math.js": {
+        "BYMC": [
+          "1-74"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1794820862,
+  "requirement_id": ""
+}
