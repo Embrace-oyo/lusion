@@ -11,6 +11,30 @@
 | 气球物理特效 | 《22 个气球，怎样互相映照：拆解 Lusion 主页的气球特效》 | [balloons-tutorial](./balloons-tutorial/) | 向心重力 + 强阻尼、两两碰撞、鼠标「射线管」推挤、三根胶囊求 AO/阴影/反射、matcap 三通道 |
 | 屏幕流体特效 | 《我以为是流体解算，结果只是一张贴图：复刻 Lusion 的屏幕流体特效》 | [fluid-screen-tutorial](./fluid-screen-tutorial/) | 四通道速度场、半拉格朗日平流、9 次偏移采样折射、色散条纹 |
 
+## 案例展示
+
+### 气球物理特效
+
+<p align="center">
+  <img src="./balloons-tutorial/images/balloons-idle.png" width="48%" alt="气球-静止" />
+  <img src="./balloons-tutorial/images/balloons-push.png" width="48%" alt="气球-鼠标推挤" />
+</p>
+<p align="center">
+  <img src="./balloons-tutorial/images/balloons-detail.png" width="48%" alt="气球-互相映照细节" />
+  <img src="./balloons-tutorial/images/balloons-color2.png" width="48%" alt="气球-切换配色" />
+</p>
+
+### 屏幕流体特效
+
+<p align="center">
+  <img src="./fluid-screen-tutorial/images/fluid-idle.png" width="48%" alt="流体-静止" />
+  <img src="./fluid-screen-tutorial/images/fluid-stroke.png" width="48%" alt="流体-划动瞬间" />
+</p>
+<p align="center">
+  <img src="./fluid-screen-tutorial/images/fluid-detail.png" width="48%" alt="流体-细节" />
+  <img src="./fluid-screen-tutorial/images/fluid-chroma.png" width="48%" alt="流体-色散细节" />
+</p>
+
 ## 怎么跑
 
 每个子目录都是独立的工程，各自进目录执行：
