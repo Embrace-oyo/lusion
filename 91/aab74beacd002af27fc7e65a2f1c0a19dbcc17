@@ -1,0 +1,133 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.5",
+  "base_commit_sha": "91aab74beacd002af27fc7e65a2f1c0a19dbcc17",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 6837,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 6837,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "README.md": {
+        "BYMC": [
+          "14-37"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/README.md": {
+        "BYMC": [
+          "1-45"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/index.html": {
+        "BYMC": [
+          "1-12"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/package.json": {
+        "BYMC": [
+          "1-19"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/App.vue": {
+        "BYMC": [
+          "1-87"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/core/BufLoader.js": {
+        "BYMC": [
+          "1-216"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/AboutExperience.js": {
+        "BYMC": [
+          "1-3299"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/AboutHeroHud.js": {
+        "BYMC": [
+          "1-921"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/AboutHeroParticles.js": {
+        "BYMC": [
+          "1-796"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/FinalPass.js": {
+        "BYMC": [
+          "1-203"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/FsrPass.js": {
+        "BYMC": [
+          "1-348"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/GoalBloom.js": {
+        "BYMC": [
+          "1-728"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/SmaaPass.js": {
+        "BYMC": [
+          "1-31"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/main.js": {
+        "BYMC": [
+          "1-5"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/styles.css": {
+        "BYMC": [
+          "1-82"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/vite.config.js": {
+        "BYMC": [
+          "1-21"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795404015,
+  "requirement_id": ""
+}
