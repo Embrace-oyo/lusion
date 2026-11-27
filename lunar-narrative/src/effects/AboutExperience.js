@@ -3068,7 +3068,7 @@ export class AboutExperience {
     this.preEfxPass.overlayScene = null;
 
     // 粒子：sim → 光照场（图集清空 / 点渲染 / 模糊累积），必须先于岩石（共享 noiseStableFactor）
-    // 传未减速 dt 给 sim、frozenDt 给光照场
+    // 子弹时间：sim 位移与光照场都用减速后的 frozenDt，噪波演化仍用原始 dt（与原站一致）
     this.particles?.update(dt, introRatio, hudRatio, frozenDt);
 
     // 屏幕空间运动模糊

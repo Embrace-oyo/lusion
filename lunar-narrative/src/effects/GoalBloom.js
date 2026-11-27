@@ -145,6 +145,14 @@ uniform bool u_isHorizontal;
 uniform float u_normalization;
 uniform bool u_isForward;
 
+// 非有限值（NaN/Inf）归零：NaN 参与任何比较都为 false，所以用开区间判断把它兜住。
+// 必要性：输入里偶尔会有 1~2 个 NaN 像素（场景 HDR 除零等），蝶形运算会在 ~19 级内
+// 把单个 NaN 扩散到整幅频谱 → 泛光整张 NaN → EFX 把整帧压黑（滚动时偶发单帧黑屏）。
+// 在每个 stage 出口清洗一次，NaN 最多只影响它自己那个像素。
+float nonFiniteToZero(float v) {
+  return (v > -1.0e30 && v < 1.0e30) ? v : 0.0;
+}
+
 void main() {
   // 当前输出像素在本次子变换中的索引
   float index, evenIndex;
@@ -183,12 +191,17 @@ void main() {
   // 蝶形运算：even + twiddle × odd（复数乘法展开，实部/虚部分别计算）
   // 复数乘法：(a+bi)(c+di) = (ac-bd) + (ad+bc)i
   // 最后乘归一化系数（仅第一步做 1/sqrt(N) 防止数值溢出）
-  gl_FragColor = (even + vec4(
+  vec4 result = (even + vec4(
     // 第一路复数的新实部 = tw.x*odd.re - tw.y*odd.im
     twiddle.x * odd.xy - twiddle.y * odd.zw,
     // 第二路复数的新虚部 = tw.y*odd.re + tw.x*odd.im
     twiddle.y * odd.xy + twiddle.x * odd.zw
   )) * u_normalization;
+  // 逐分量清洗 NaN/Inf，阻断扩散
+  gl_FragColor = vec4(
+    nonFiniteToZero(result.x), nonFiniteToZero(result.y),
+    nonFiniteToZero(result.z), nonFiniteToZero(result.w)
+  );
 }
 `;
 

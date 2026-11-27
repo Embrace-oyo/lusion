@@ -657,8 +657,9 @@ export class AboutHeroParticles {
       this.simUniforms.u_simCurrPosLifeTexture.value = this.simCurr.texture;
       // 输出/参考绑定
       this.simUniforms.u_simPrevPosLifeTexture.value = this.simPrev.texture;
-      // 原站 sim.update(e) 用的是未减速的 dt（子弹时间只减速 lightField/particles）
-      this.simUniforms.u_introDeltaTime.value = dt;
+      // 原站 u_introDeltaTime 是 aboutHero 的共享 uniform（= 减速后的 t），sim 用它步进位置
+      // → 按住指针时粒子运动/拖尾真正变慢（子弹时间）；噪波时间仍用未减速的 dt（与原站一致）
+      this.simUniforms.u_introDeltaTime.value = frozenDt;
       // 噪波时间推进：0.4 倍速让流场缓慢演化
       this.simUniforms.u_noiseTime.value += dt * 0.4;
       // 噪声强度的时间轴推进（1 倍速）
