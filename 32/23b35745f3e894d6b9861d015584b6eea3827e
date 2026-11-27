@@ -1,0 +1,42 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.0",
+  "base_commit_sha": "3223b35745f3e894d6b9861d015584b6eea3827e",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 1939,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 1939,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "lunar-narrative/src/core/pageReady.js": {
+        "BYMC": [
+          "1-58"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/views/AboutView.vue": {
+        "BYMC": [
+          "1-138"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/掘金-月面长镜头特效教程.md": {
+        "BYMC": [
+          "1-1743"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795763359,
+  "requirement_id": ""
+}
