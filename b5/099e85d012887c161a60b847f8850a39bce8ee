@@ -1,0 +1,30 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.0",
+  "base_commit_sha": "b5099e85d012887c161a60b847f8850a39bce8ee",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 3,
+    "git_diff_deleted_lines": 3,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 3,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "lunar-narrative/掘金-月面长镜头特效教程.md": {
+        "BYMC": [
+          "1281",
+          "1378",
+          "1458"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795768995,
+  "requirement_id": ""
+}
