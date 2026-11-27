@@ -1,0 +1,102 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.0",
+  "base_commit_sha": "81e6daf48e075e07f263c061a76551685161297e",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 104,
+    "git_diff_deleted_lines": 194,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 102,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "lunar-narrative/README.md": {
+        "BYMC": [
+          "3",
+          "13",
+          "15-22",
+          "28-32",
+          "37",
+          "42-43",
+          "48",
+          "52"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/package.json": {
+        "BYMC": [
+          "13"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/App.vue": {
+        "BYMC": [
+          "1-4",
+          "7-10",
+          "12-14",
+          "17-23",
+          "26-38",
+          "40-44"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/AboutExperience.js": {
+        "BYMC": [
+          "3071"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/AboutHeroParticles.js": {
+        "BYMC": [
+          "660-662"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/effects/GoalBloom.js": {
+        "BYMC": [
+          "148-155",
+          "194",
+          "200-204"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/main.js": {
+        "BYMC": [
+          "1-4",
+          "6-10"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/src/styles.css": {
+        "BYMC": [
+          "1-4",
+          "7-12",
+          "16-18"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "lunar-narrative/vite.config.js": {
+        "BYMC": [
+          "1-2",
+          "8-10"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795747289,
+  "requirement_id": ""
+}
